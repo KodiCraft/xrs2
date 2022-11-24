@@ -1,0 +1,17 @@
+[package]
+name = "xrs2"
+version = "0.1.0"
+edition = "2021"
+description = "X11 API bindings for Rust"
+readme = "README.md"
+license = "Mozilla Public License 2.0"
+
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE",
+]
+
+[dependencies]
+xrb = { path = "./xrb" }
