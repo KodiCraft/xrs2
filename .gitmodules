@@ -1,0 +1,3 @@
+[submodule "xrb"]
+	path = xrb
+	url = git@github.com:KodiCraft/xrb.git
